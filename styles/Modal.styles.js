@@ -1,0 +1,59 @@
+import { StyleSheet } from "react-native";
+const styles  = StyleSheet.create({
+  modalTransparentBackground:{
+    backgroundColor:'rgba(52, 52, 52, 0.8)'
+  },
+  footer:{
+    flex:1,
+    flexDirection:'row',
+    alignItems:'flex-end',
+    width:'100%',
+   justifyContent:'space-around'
+  },
+    modalContainer:{
+        height:'65%',
+        alignItems:'center',
+        backgroundColor:'#fff',
+        width:'90%'
+    },
+      modalHeader:{
+        flexDirection:'row',
+        height:'15%',
+        width:'100%'
+      },
+      modalHeaderTitleContainer:{
+        height:'100%',
+        flexDirection:'row',
+        alignItems:'center',
+        flex:1
+      },
+      modalHeaderTitle:{
+        fontSize:20,
+        marginLeft:25,
+        fontWeight:'500'
+      },
+      pickerContainer:{
+        width:'90%',
+        marginBottom:20
+      },
+      closeButton:{
+        flexDirection:'row',
+        alignItems:'center',
+        justifyContent:'flex-end',
+        height:'100%',
+        flex:1 
+      },
+      closeButtonText:{
+        marginRight:25
+      },
+      descriptionContainer:{
+        width:'90%',
+        paddingHorizontal:5
+      },
+      button:{
+        height:50,
+        width:'45%',
+        marginBottom:20
+      }
+})
+export default styles

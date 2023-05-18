@@ -1,0 +1,9 @@
+export const todoActionTypes = {
+    ADD_TODO:'ADD_TODO',
+    DELETE_TODO:'DELETE_TODO',
+    EDIT_TODO:'EDIT_TODO',
+    UPDATE_TODO:'UPDATE_TODO',
+    APPLY_FILTER:'APPLY_FITER',
+    RESET_FILTER:'RESET_FILTER',
+
+}
