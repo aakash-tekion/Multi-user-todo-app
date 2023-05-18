@@ -7,7 +7,7 @@ import DrawerNavigator from './DrawerNavigator.js'
 import TodoForm from '../components/Todo/TodoForm/TodoForm.js'
 import CustomHeader from './CustomHeader.js'
 import Menu from '../atoms/Menu/Menu.js'
-
+import EditForm from '../components/EditProfile/EditForm.js'
 const appStackNavigator = createStackNavigator({
     Login:{
         screen:Login,
@@ -34,6 +34,13 @@ const appStackNavigator = createStackNavigator({
         screen:TodoForm,
         navigationOptions:{
             headerTitle:(props)=>(<CustomHeader {...props} title='Todo App'/>),
+    
+        }
+    },
+    EditProfile:{
+        screen:EditForm,
+        navigationOptions:{
+            headerTitle:(props)=>(<CustomHeader {...props} title='Edit profile'/>),
     
         }
     }
